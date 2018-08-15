@@ -1,0 +1,120 @@
+:root {
+ font-kerning: normal;
+ font-variant-ligatures: common-ligatures
+contextual;
+ font-feature-settings: "kern", "liga", "clig",
+“calt”;
+}
+
+.fab, .fas {
+  vertical-align: middle;
+}
+
+body {
+  font-size: 80%;
+  font-family: 'Vollkorn', serif;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  margin-top: 1.5em;
+}
+
+#address {
+  font-size: 1.2;
+  margin: 0;
+  font-weight: 300;
+}
+
+ul {
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+}
+
+.experience-company {
+  font-variant: small-caps;
+  font-family: 'Vollkorn SC', serif;
+}
+
+.experience-title {
+  font-style: italic;
+  color: #36AECC;
+}
+
+.experience-time {
+  font-style: italic;
+  font-weight: 100;
+  color: #aaa;
+}
+
+.experience-location {
+  font-variant: all-petite-caps;
+  font-family: 'Vollkorn SC', serif;
+  /*color: #36AECC;*/
+}
+
+li {
+  font-size: 0.85em;
+}
+
+.mandarin {
+  font-family: initial;
+}
+
+#logo {
+  height: 4em;
+}
+
+#name {
+  margin: 0;
+  font-size: 1.6em;
+  font-weight: 500;
+}
+
+#sub-caption {
+  margin: 0;
+  font-size: 1.4em;
+}
+
+#contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  color: #36AECC;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 0.85;
+}
+
+.contact-item {
+  color: #36AECC;
+}
+
+hr.style-eight:after {
+  content: "§";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: white;
+}
+
+hr {
+    margin: .7em 0 5px 0;
+}
+
+hr.style-eight {
+  overflow: visible;
+  padding: 0;
+  border: none;
+  border-top: 1px solid #ccc;
+  color: #333;
+  text-align: center;
+  height: 0.2em;
+}
