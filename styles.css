@@ -1,18 +1,17 @@
 :root {
- font-kerning: normal;
- font-variant-ligatures: common-ligatures
-contextual;
- font-feature-settings: "kern", "liga", "clig",
-“calt”;
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures contextual;
+  font-feature-settings: "kern", "liga", "clig", “calt”;
 }
 
-.fab, .fas {
+.fab,
+.fas {
   vertical-align: middle;
 }
 
 body {
-  font-size: 80%;
-  font-family: 'Vollkorn', serif;
+  font-size: 85%;
+  font-family: "Vollkorn", serif;
   margin-left: 1.5em;
   margin-right: 1.5em;
   margin-top: 1.5em;
@@ -31,12 +30,12 @@ ul {
 
 .experience-company {
   font-variant: small-caps;
-  font-family: 'Vollkorn SC', serif;
+  font-family: "Vollkorn SC", serif;
 }
 
 .experience-title {
   font-style: italic;
-  color: #36AECC;
+  color: #36aecc;
 }
 
 .experience-time {
@@ -47,7 +46,7 @@ ul {
 
 .experience-location {
   font-variant: all-petite-caps;
-  font-family: 'Vollkorn SC', serif;
+  font-family: "Vollkorn SC", serif;
   /*color: #36AECC;*/
 }
 
@@ -85,14 +84,14 @@ li {
 }
 
 a {
-  color: #36AECC;
+  color: #36aecc;
   text-decoration: none;
   display: inline-block;
   line-height: 0.85;
 }
 
 .contact-item {
-  color: #36AECC;
+  color: #36aecc;
 }
 
 hr.style-eight:after {
@@ -106,7 +105,7 @@ hr.style-eight:after {
 }
 
 hr {
-    margin: .7em 0 5px 0;
+  margin: 0.7em 0 5px 0;
 }
 
 hr.style-eight {
